@@ -1,0 +1,11 @@
+MSD: Multilingual Safety Alignment via Self-Distillation
+Copyright 2026 the MSD authors.
+
+Code is distributed under the Apache License, Version 2.0 (see LICENSE).
+
+The training infrastructure in src/distil_trainer.py and src/distil_config.py is
+adapted from Hugging Face TRL v0.24.0, licensed under Apache 2.0.
+Copyright 2020-2025 The HuggingFace Team. All rights reserved.
+Source: https://github.com/huggingface/trl/tree/v0.24.0
+Changes include cross-lingual teacher conditioning, MSD distillation,
+DPSW weighting, teacher-sampled rollouts, and release cleanup.
